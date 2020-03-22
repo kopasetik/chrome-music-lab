@@ -15,7 +15,7 @@
  */
 
 require(["domready", "roll/Roll", "sound/Player", "interface/Interface", "Tone/core/Transport",
-        "midi/preludeInC.json", "StartAudioContext", "style/main.scss", "Tone/core/Tone", "interface/Orientation", "interface/Overlay"],
+        "midi/preludeInC.json", "startaudiocontext", "style/main.scss", "Tone/core/Tone", "interface/Orientation", "interface/Overlay"],
     function (domReady, Roll, Player, Interface, Transport, preludeInC,
               StartAudioContext, mainStyle, Tone, Orientation, Overlay) {
 
